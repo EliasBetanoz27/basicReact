@@ -50,7 +50,7 @@ const PrimerComponente = () => {
     className="botton"
     onClick={() => alert(ReactDOMServer.renderToString(Hola()))}
   >
-    Enviar
+    Enviarr 
   </button>
 </div>
 </div>
