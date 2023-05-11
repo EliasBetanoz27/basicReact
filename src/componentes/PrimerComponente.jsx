@@ -10,13 +10,13 @@ const Hola = () => {
 
 const nombres = ["elias", "juan", "miguel", "jose"];
 //puedo iterar el array para despues mostrarlo
-function getNombres() {
-  const elementosLista = [];
-  for (var i = 0; i < nombres.length; i++) {
-    elementosLista.push(<li>{nombres[i]}</li>);
-  }
-  return elementosLista;
-}
+// function getNombres() {
+//   const elementosLista = [];
+//   for (var i = 0; i < nombres.length; i++) {
+//     elementosLista.push(<li>{nombres[i]}</li>);
+//   }
+//   return elementosLista;
+// }
 
 function Nombres() {
   // return <ul>{getNombres()}</ul>;
@@ -50,7 +50,7 @@ const PrimerComponente = () => {
     className="botton"
     onClick={() => alert(ReactDOMServer.renderToString(Hola()))}
   >
-    Enviarr 
+    Enviar
   </button>
 </div>
 </div>

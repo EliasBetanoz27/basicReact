@@ -4,6 +4,7 @@ import CuartoComponente from "./componentes/CuartoComponente";
 import PrimerComponente from "./componentes/PrimerComponente";
 import SegundoComponente from "./componentes/SegundoComponente";
 import TercerComponente from "./componentes/TercerComponente";
+import Pruebas from "./componentes/Pruebas";
 
 function App() {
   const [componente1, setComponente] = useState(true);
@@ -102,6 +103,7 @@ function App() {
         <h1>----formulario------</h1>
         <CuartoComponente />
       </div>
+      <Pruebas/>
     </div>
   );
 }
